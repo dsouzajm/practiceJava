@@ -14,6 +14,7 @@ public class EncryptorAesGcmPassword {
     private static final int SALT_LENGTH_BYTE = 16;
     private static final Charset UTF_8 = StandardCharsets.UTF_8;
     public static void main(String[] args) throws Exception {
+
         String OUTPUT_FORMAT = "%-30s:%s";
         String PASSWORD = "password";
         String pText = "eureka";
